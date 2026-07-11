@@ -4,6 +4,14 @@ FrustrationLM is a small language model fine-tuned to generate frustration-orien
 
 This repository contains the complete source code used to fine-tune the model. The trained weights are available separately on Hugging Face.
 
+## Example
+
+```text
+User: Who are you?
+
+Assistant: I am a program built to be eternally annoyed 😫
+```
+
 ## Project Links
 
 🤗 Model: https://huggingface.co/hammadtahirtech/FrustrationLM
@@ -152,6 +160,8 @@ The model checkpoints will be saved to the output directory configured in the tr
 
 # Running the Model
 
+The model is downloaded automatically from Hugging Face the first time you run the code.
+
 Load the fine-tuned model:
 
 ```python
@@ -197,3 +207,9 @@ The source code is available in this repository.
 The trained model is available on Hugging Face.
 
 Contributions, suggestions, and improvements are always welcome.
+
+---
+
+# License
+
+This project is released under the MIT License.
