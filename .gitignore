@@ -4,4 +4,3 @@ __pycache__/
 tinyLLM/
 *.gguf
 llama.cpp
-convert_to_gguf.py
